@@ -14,5 +14,14 @@
         <br />
         <br />
         <a href="https://djangogirls.org">Django Girls Web page</a>
+        <br>
+        <br>
+    <div> {{ posts }}
+    </div>
+    <br>
+    <br>
+    {% for post in posts %}
+    {{ post }}
+{% endfor %}
     </body>
 </html>
